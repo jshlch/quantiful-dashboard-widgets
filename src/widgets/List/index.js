@@ -1,7 +1,7 @@
 import { useOnMount } from '../../hooks/ref';
 import { useGet } from '../../hooks/useGet';
 import PokeballIcon from '../../assets/icons/pokeball-icon.png';
-import Loader from '../../components/Loader';
+import Loader from '../Loader';
 import {
   StyledListHeader,
   StyledListSubtitle,

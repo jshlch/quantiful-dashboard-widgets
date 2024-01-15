@@ -1,4 +1,4 @@
-import Loader from '../../components/Loader';
+import Loader from '../Loader';
 import { useOnMount } from '../../hooks/ref';
 import { useGet } from '../../hooks/useGet';
 import {
