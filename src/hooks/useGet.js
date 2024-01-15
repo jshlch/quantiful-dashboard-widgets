@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { callGet } from '../utils/api';
+import { callGet } from '../modules/Dashboard/api';
 
 export const useGet = (path) => {
   const [data, setData] = useState(null);

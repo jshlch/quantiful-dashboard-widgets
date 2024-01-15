@@ -12,7 +12,7 @@ export const StyledColumnHeading = styled.div`
 `;
 export const StyledColumnContent = styled.div`
   ${(props) =>
-    props.type.toLowerCase() === 'number'
+    props.type?.toLowerCase() === 'number'
       ? 'display: flex; row-gap: 1.5rem; column-gap: 1.5rem; flex-wrap: wrap; justify-content: space-between;'
       : 'display: flex; flex-direction: column; row-gap: 20px;'}
 `;

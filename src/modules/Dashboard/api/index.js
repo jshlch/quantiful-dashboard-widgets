@@ -1,7 +1,4 @@
-// Axios
 import axios from 'axios';
-// import { apiUrl } from 'config';
-// axios.defaults.baseURL = apiUrl;
 
 export const getAuthenticationHeaders = (headers = {}) => ({
   Accept: 'application/json',

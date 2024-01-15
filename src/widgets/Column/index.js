@@ -27,6 +27,8 @@ export default function Column({ size, heading, widgets }) {
       : null;
   };
 
+  const getColumnType = () => (widgets ? widgets[0].type : null);
+
   return (
     <StyledColumnContainer
       size={size}
@@ -35,8 +37,8 @@ export default function Column({ size, heading, widgets }) {
       <StyledColumnHeading>
         <h2>{heading}</h2>
       </StyledColumnHeading>
-      <StyledColumnContent type={widgets[0].type}>
-        {widgets.map((widget, index) => {
+      <StyledColumnContent type={getColumnType()}>
+        {widgets?.map((widget, index) => {
           switch (widget.type) {
             case 'list':
               return (
