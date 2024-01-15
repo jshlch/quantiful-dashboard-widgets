@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const StyledListHeader = styled.div`
-  margin-bottom: 0px;
+  margin-bottom: 10px;
 `;
 export const StyledListSubtitle = styled.p`
   color: #7c7c7c;

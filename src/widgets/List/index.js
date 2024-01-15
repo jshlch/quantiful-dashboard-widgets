@@ -18,7 +18,7 @@ export default function List({ title, subtitle, api }) {
   });
 
   return (
-    <>
+    <div>
       <StyledListHeader>
         <h3>{title}</h3>
         <StyledListSubtitle>{subtitle}</StyledListSubtitle>
@@ -35,6 +35,6 @@ export default function List({ title, subtitle, api }) {
           ))}
         </StyledListWrapper>
       )}
-    </>
+    </div>
   );
 }
