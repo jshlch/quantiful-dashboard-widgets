@@ -1,12 +1,14 @@
 ## Dashboard Configuration
 
 You can find the configuration file here...
+```
 .
 ├── ...
 ├── src  
 │ ├── configuration.js # Dashboard configuration file
 │ └── ... # etc.
 └── ...
+```
 
 ## Available Scripts
 
